@@ -72,12 +72,15 @@
 
 /* childcoding-Container start */
 @media(max-width:456px){
-    .childcoding-Section p{
+   .childcoding-Section p{
         width: 90%;
         margin-left: 30px;
     }
     .formSection1 , .formSection2 , .formSection3{
         width: 390px;
+    }
+    .formSection{
+        width:60%;
     }
 }
 /* childcoding-container end */
