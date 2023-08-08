@@ -76,15 +76,16 @@
         width: 90%;
         margin-left: 30px;
     }
+    .formSection1 , .formSection2 , .formSection3{
+        width: 390px;
+    }
 }
 /* childcoding-container end */
 
 
 /* whyus-Container start */
 @media(max-width:456px){
-    /* .whyus-Section p{
-        flex-direction: column;
-    }  */
+    
     .whyus-Container{
         width: 100%;
         padding: 10px;
@@ -97,7 +98,7 @@
 @media(max-width:456px){
     .codejourney-Section button{
         padding: 15px ;
-        width: 100%;
+        width: 80%;
     }
 }
 /* codejourney-container end */
@@ -110,10 +111,14 @@
         margin-left: 2px; 
     }
     .box img{
-        width: 300px;
+        width: 280px;
+        background-color: white;
+        padding-top: 15px;
     }
     .box{
-        width: 350px;
+        width: 310px;
+        background-color: white;
+        border-radius: 5px;
     }
 }
 /* subject-container end */
@@ -126,7 +131,7 @@
         margin-left: 15px;
     }
     .curriculum-Section img{
-        width: 410px;
+        width: 350px;
     }
 }
 /*curriculum-Section end */
@@ -138,7 +143,7 @@
         margin-left: 5px;
     }
     .pedagogy-Section img{
-        width: 450px;
+        width: 350px;
     }
     .pedagogy-Section button{
         width: 90%;
@@ -174,8 +179,11 @@
         margin-left: 100px;
         margin-top: 7px;
     }
-    .contact-Icons{
-
+    .contact-Icons h2{
+        width: 100%;
+    }
+    .contact-Menu button{
+        width: 100%;
     }
 }
 /* footer container end */
