@@ -167,9 +167,9 @@
             align-items: center;
             justify-content: space-between;
         }
-        .fbox{
-            width: 400px;
-        }
+        /* .fbox{
+            width: 100px;
+        } */
         .input-box{
             padding: 5px 0;
         }
@@ -391,7 +391,7 @@
     color: rgb(49, 47, 47);
 }
 .cj-p1{
-    font-size: 25px;
+    font-size: 22px;
     font-weight: 200;
     margin-top: 30px;
     margin-bottom: 20px;
