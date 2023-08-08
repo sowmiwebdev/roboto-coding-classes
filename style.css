@@ -167,9 +167,6 @@
             align-items: center;
             justify-content: space-between;
         }
-        /* .fbox{
-            width: 100px;
-        } */
         .input-box{
             padding: 5px 0;
         }
@@ -214,7 +211,6 @@
         .formSection2{
             width: 400px;
             text-align: center;
-            /* margin-left: 10px; */
             margin-top: 20px;
             padding: 20px;
             background-color:rgb(247, 185, 70);
@@ -225,9 +221,6 @@
             display: flex;
             align-items: center;
             justify-content: space-between;
-        }
-        .fbox{
-            width: 400px;
         }
         .input-box{
             padding: 5px 0;
@@ -273,7 +266,6 @@
         .formSection3{
             width: 400px;
             text-align: center;
-            /* margin-left: 10px; */
             margin-top: 20px;
             padding: 20px;
             background-color:black;
