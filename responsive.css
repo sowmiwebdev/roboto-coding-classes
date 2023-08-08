@@ -16,9 +16,9 @@
         display: none;
         position: absolute;
         margin-top: 95%;
-        padding: 20px 10px 0 40px;
+        padding: 20px 10px 20px;
         color: rgb(101, 95, 95);
-        height: 50%;
+        /* height: 50%; */
         width: 100%;
     }
     .navSection{
