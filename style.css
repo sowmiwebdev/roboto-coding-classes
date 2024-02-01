@@ -1,672 +1,393 @@
-@import url('https://fonts.googleapis.com/css2?family=Mukta:wght@200;300;600;700;800&display=swap');
-@import url('https://fonts.googleapis.com/css2?family=Assistant:wght@200;400&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Courgette&family=Noto+Serif&family=Roboto+Serif:ital,opsz,wght@1,8..144,300&display=swap');
 *{
     margin: 0;
     padding: 0;
     box-sizing: border-box;
 }
-.logo img{
-    width: 120px;
-    margin-left: 200px;
-}
 :root{
-    --box-shadow: 0.1rem 0.1rem rgb(232, 225, 225) ;
+    --box-shadow:0.6rem 0.6rem rgba(0,0,0,.1);
 }
 
+/* .navsection*/
 
-/* navcontainer start */
 .navContainer{
-    height: 100%;
-    width: 100%;
+    height:100%
 }
+
 .navSection{
-    height: 13vh;
-    width: 100%;
+    background-color:white;
+    height: 11vh;
+    width:100%;
     display: flex;
-    align-items: center;
     justify-content: space-between;
-    background-color: black;
+    align-items: center;
     box-shadow: var(--box-shadow);
+}
+.logo img{
+    height: 45px;
+    margin-left: 190px;
 }
 .navLinks{
     display: flex;
+    justify-content: space-evenly;
     align-items: center;
-    justify-content: space-between;
-    width: 45%;
+    width: 33%;
     list-style-type: none;
-    font-size: 15px;
-    color: white;
-    font-family: 'Nunito', sans-serif;
-}
-.Inquire{
-    margin-right: 20px;
-    text-align: center;
-    font-size: 18px;
-    color: white;
-    font-family: 'Nunito', sans-serif;
-}
-.navLinks button{
-    color:rgb(78, 144, 162);
-    padding: 6px;
-    font-size: 12px;
-    background-color: black;
-    border: 1px solid rgb(78, 144, 162);
-    border-radius: 5px;
-    font-family: 'Nunito', sans-serif;
-    font-weight: bold;
-}
-.Inquire a{
-    color: aqua;
-    font-size: 16.5px;
-}
-.checkBtn{
-    color: white;
-}
-/* navContainer end */
-
-
-/* herosection start */
-.heroSection{
-    display: flex;
-    background-color:transparent;
-    background-image: url(./images/genius-coder-programme.jpg);
-    padding: 160px;
-    background-repeat: no-repeat;
-    background-position:center center;
-    background-size: cover;
-    object-fit: cover;
-}
-.jumbotron{
-    text-align: center;
-    color: white;
-}
-.jumbotron h1{
-    font-size: 52px;
-    margin-bottom: 10px;
-    font-family: 'Mukta', sans-serif;
-}
-.jumbotron a{
-    color:rgb(81, 117, 164);
-    margin-right: 10px;
-}
-.jumbotron p{
     font-size: 20px;
-    font-family: 'Mukta', sans-serif;
-    margin-left: 10px;
-}
-/* heroSection end */
-
-
-/* brightfuture-container */
-.brightfuture-Section{
-    width: 100%;
-}
-.brightfuture-Image img{
-    width: 400px;
-    margin-top: 30px;
-}
-.brightfuture-Section h1{
-    text-align: center;
-    font-size: 35px;
-    color: rgb(45, 42, 42);
-    font-family: 'Assistant', sans-serif;
-    font-weight:400;
-    margin-top: 40px;
-    margin-bottom: 20px;
-}
-.brightfuture-Content p{
-    width: 80%;
-    font-size: 20px;
-    font-family: 'Assistant', sans-serif;
-    font-weight: 100;
-}
-.brightfuture-Content{
-    width: 80%;
-    margin-left: 100px;
-    display: flex;
-    align-items: center;
-    justify-content: space-between;
-}
-/* brightfuture-Section end */
-
-/* childcoding-container start */
-    .childcoding-Container{
-        height: 100%;
-        width: 100%;
-        display: grid;
-        grid-template-columns: repeat(auto-fit,minmax(333px,1fr));
-    }
-    .child-h1{
-        text-align: center;
-        font-family: 'Assistant', sans-serif;
-        font-weight: 400;
-        color: rgb(45, 42, 42);
-    } 
-    .childcoding-Section p{
-        width: 50%;
-        margin-left: 25%;
-        font-size: 20px;
-        font-family: 'Assistant', sans-serif;
-        font-weight: 200;
-        margin-top: 10px;
-    }
-
-    /* formsection1 */
-        .formSection1{
-            width: 400px;
-            text-align: center;
-            /* margin-left: 10px; */
-            margin-top: 20px;
-            padding: 20px;
-            background-color:rgb(49, 170, 210);
-            color: white;
-            border-radius: 5px;
-        }
-        .ctbox{
-            display: flex;
-            align-items: center;
-            justify-content: space-between;
-        }
-        .input-box{
-            padding: 5px 0;
-        }
-        .form h1{
-            padding: 10px 0 40px;
-            font-family: 'Assistant', sans-serif;
-            font-size: 28px;
-        }
-        .input-box button{
-            width: 70%;
-            color: white;  
-            background-color: transparent;
-            border: none;
-            font-size: 18px;
-            font-weight: bold;
-            font-family: 'Assistant', sans-serif;
-            text-align: left;
-        }
-        .input-box i:hover{
-            cursor: pointer;
-        }
-        .input-box i{
-            font-size: 15px;
-            background-color:rgb(79, 199, 239);
-            border-radius: 50%;
-            color: white;
-            padding: 10px;
-            margin-bottom: 10px;
-        }
-        .heading-image i{
-            font-size: 25px;
-            background-color:rgb(109, 212, 247);
-            border-radius: 50%;
-            color: white;
-            text-align: center;
-            padding: 20px;
-            margin-bottom: 10px;
-        }
-        /* formSection1 end */
-
-        /* formsection2 */
-        .formSection2{
-            width: 400px;
-            text-align: center;
-            margin-top: 20px;
-            padding: 20px;
-            background-color:rgb(247, 185, 70);
-            color: white;
-            border-radius: 5px;
-        }
-        .ctbox{
-            display: flex;
-            align-items: center;
-            justify-content: space-between;
-        }
-        .input-box{
-            padding: 5px 0;
-        }
-        .form h1{
-            padding: 10px 0 40px;
-            font-family: 'Assistant', sans-serif;
-            font-size: 28px;
-        }
-        .input-box button{
-            width: 70%;
-            color: white;  
-            background-color: transparent;
-            border: none;
-            font-size: 18px;
-            font-weight: bold;
-            font-family: 'Assistant', sans-serif;
-            text-align: left;
-        }
-        .input-box i:hover{
-            cursor: pointer;
-        }
-        .formSection2 .input-box i{
-            font-size: 15px;
-            background-color:rgb(237, 214, 171);
-            border-radius: 50%;
-            color: white;
-            padding: 10px;
-            margin-bottom: 10px;
-        }
-        .formSection2 .heading-image i{
-            font-size: 25px;
-            background-color:rgb(237, 214, 171);
-            border-radius: 50%;
-            color: white;
-            text-align: center;
-            padding: 20px;
-            margin-bottom: 10px;
-        }
-        /* formSection2 end */
-
-        /* formsection3 */
-        .formSection3{
-            width: 400px;
-            text-align: center;
-            margin-top: 20px;
-            padding: 20px;
-            background-color:black;
-            color: white;
-            border-radius: 5px;
-        }
-        .ctbox{
-            display: flex;
-            align-items: center;
-            justify-content: space-between;
-        }
-        .fbox{
-            width: 400px;
-        }
-        .input-box{
-            padding: 5px 0;
-        }
-        .form h1{
-            padding: 10px 0 40px;
-            font-family: 'Assistant', sans-serif;
-            font-size: 28px;
-        }
-        .input-box button{
-            width: 70%;
-            color: white;  
-            background-color: transparent;
-            border: none;
-            font-size: 18px;
-            font-weight: bold;
-            font-family: 'Assistant', sans-serif;
-            text-align: left;
-        }
-        .input-box i:hover{
-            cursor: pointer;
-        }
-        .formSection3 .input-box i{
-            font-size: 15px;
-            background-color:rgb(102, 98, 98);
-            border-radius: 50%;
-            color: white;
-            padding: 10px;
-            margin-bottom: 10px;
-        }
-        .formSection3 .heading-image i{
-            font-size: 25px;
-            background-color:rgb(102, 98, 98);
-            border-radius: 50%;
-            color: white;
-            text-align: center;
-            padding: 20px;
-            margin-bottom: 10px;
-        }
-        .formSection{
-            width: 100%;
-            display: grid;
-            grid-template-columns: repeat(auto-fit,minmax(333px,1fr));
-            margin-left: 20px;
-        }
-    /* formSection3 end */
-
-/*childcoding-Container end */
-
-
-/* whyus-Container start */
-.whyus-Container{
-    width: 100%;
-    display: flex;
-    background-image: url(./images/data-analytics-courses.jpg);
-    padding: 150px;
-    background-repeat: no-repeat;
-    background-position: center center;
-    background-size: cover;
-    margin-top: 50px;
-    margin-bottom: 50px;
-}
-.whyus-Section h1{
-    color: white;
-    font-size: 50px;
-    font-family: 'Assistant', sans-serif;
-}
-.whyus-Section{
-    text-align: center;
-    width: 100%;
-    /* margin-left: 15%; */
-}
-.p1{
-    width: 100%;
-    color: rgb(181, 138, 59);
-    font-family: 'Assistant', sans-serif;
-    font-size: 45px;
-    font-weight:bolder;
-    margin-top: 10px;
-}
-.p2{
-    width: 100%;
-    color:white;
-    font-family: 'Assistant', sans-serif;
-    font-size: 25px;
-    font-weight: 300;
-    margin-top: 30px;
-}
-/* whyus-Container end */
-
-
-/* codejourny-Container start */
-
-.codejourney-Container{
-    width: 100%;
-    text-align: center;
-    font-family: 'Assistant', sans-serif;
-}
-.codejourney-Section h1{
-    font-size: 40px;
-    font-weight: 400;
-    color: rgb(49, 47, 47);
-}
-.cj-p1{
-    font-size: 22px;
-    font-weight: 200;
-    margin-top: 30px;
-    margin-bottom: 20px;
-}
-.cj-p2{
-    font-size: 18px;
-    font-weight: 200;
-}
-.codejourney-Section button{
-    height: 80%;
-    width: 45%;
-    padding: 15px 248px;
-    border: 1.5px solid rgb(98, 178, 200);
-    border-radius: 5px;
-    color:rgb(78, 144, 162);
-    font-size: 14px;
-    margin-top: 45px;
-    margin-bottom: 20px;
-}
-.codejourney-Section button:hover{
-    background-color: rgb(3, 161, 204) ;
-    color: white;
-}
-.codejourney-Section a{
-    font-size: 30px;
+    color: rgb(91, 84, 84);
+    font-family: 'Nunito', sans-serif;
+    cursor: pointer;
+    margin-right: 160px;
+}   
+.navLinks a{
     text-decoration: none;
 }
-/* .codejourny-Container end */
+.navLinks li:hover{
+    color: rgb(195, 157, 118);
+    cursor: pointer;
+    text-decoration: underline;
+}
 
+/* .heroSection */
 
-/* subject Container start*/
-
-.subject-Container{
-    width: 100%;
-    text-align: center;
-    font-family: 'Assistant', sans-serif;
-    color: white;
-    background-image: url(http://wallpapercave.com/wp/J6VQQnJ.jpg);
-    padding: 50px;
+.heroSection{
+    display: flex;
+    background-color: white;
+    background-image: url(./images/home-bg.jpg);
     background-repeat: no-repeat;
-    background-size: cover;
     background-position: center center;
-    margin-bottom: 50px;
+    background-size: cover;
+    padding: 190px 0;
+}  
+.jumbotron{
+    background-color: transparent;
+    height: 50%;
+    width: 30%;
+    text-align: center;
+    margin-left: 15%;
+    margin-bottom: 50px;    
+}
+.h-heading{
+    font-family: 'Merienda', cursive;
+    font-size: 60px;
+    font-weight: bold;
+}
+.h-para{
+    font-size: 15px;
+    line-height: 1.5;
+    padding:20px 20px; 
+    font-family: 'Nunito', sans-serif;
 
 }
-.subject-Content{
-    width: 60%;
-    margin-left:20% ;
-    font-size: 22px;
+.h-btn{
+    font-size: 20px;
+    padding: 8px 30px;
+    background-color:rgb(195, 157, 118);
+    border: none;
+    color: white;
+    border-radius: 2px;
+    cursor: pointer;
 }
-.subject-Content h1{
+
+.btn:hover{
+    background-color:black;
+}
+/* .aboutSection */
+
+.aboutSection{
+    display: flex;
+    align-items: center;
+    width:80%;
+    margin-left: 10%;
+}
+.aboutImage img{
+    width: 450px;
+    margin-right: 40px;
+}
+.aboutContent{
+    height: 100%;
+    width: 90%;
+ }
+.aboutContent h3{
+    font-family: 'Merienda', cursive;
     font-size: 50px;
 }
-.subject-Content p1{
-    font-size: 50px;
+.aboutContent p{
+    font-size: 17px;
+    line-height: 1.7;
+    margin-bottom: 3%;
 }
-.subject-Content p{
-    margin-bottom: 20px;
+.aboutContent .btn{
+    font-size: 20px;
+    padding: 10px 25px;
+    background-color: rgb(195, 157, 118);
+    border: none;
+    color: white;
+    cursor: pointer;
+    text-decoration: none;
+    margin-left: 5px;
 }
-.box img{
-    width: 280px;
-    background-color: white;
-    padding-top: 15px;
+
+.btn:hover{
+    background-color:black;
 }
-.box{
-    width: 310px;
-    background-color: white;
-    border-radius: 5px;
+
+/* .facilityContainer */
+
+.fheading img{
+    width: 200px; 
+    margin-top: 20px;
 }
-.box-Container{
-    width: 100%;
-    display: grid;
-    grid-template-columns: repeat(auto-fit,minmax(333px,2fr));
-    gap:2rem;
+.fheading h3{
+    font-size: 40px;
+    font-family: 'Merienda', cursive;
+    margin-top: 10px;
+}
+.fheading{
     text-align: center;
+    margin-top: 10px;
 }
-.box h2{
-    color: black;
-    padding: 15px;
-    font-weight: 400;
+.fboxContainer{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    text-align: center;
+    font-size: 18px;
+    font-family: 'Nunito', sans-serif;
+    color: rgb(78, 73, 73);
+    padding:0 10% 0 ;
+    line-height: 1.7;
 }
-.box i{
-    margin-right: 15px;
+.fbox{
+    width: 80%;
 }
-/* .subject-Container end */
+.fbox img{
+    width:110px;
+}
+.fbox fp{
+    padding: 10px;
+    font-family: 'Nunito', sans-serif;
+    font-size: 15px;
+}
 
+/* .mainSection */
 
-/* curriculum-Container start  */
-
-.curriculum-Container{
+.menuSection{
     height: 100%;
     width: 100%;
+}
+.menuImage img{
+    width: 200px;
+    margin-top: 20px;
+}
+.mheading{
     text-align: center;
-    margin-bottom: 20px;
 }
-.curriculum-Section{
-    font-family: 'Mukta', sans-serif;
+.mainImage h3{
+    font-family: 'Merienda', cursive;
+    font-size: 40px;
+}
+.mbox-Container1{
+    display: flex;
+    align-items:center;
+    justify-content:center;
+    text-align: center;
+    margin-bottom: 40px;
+} 
+.mbox-Container2{
+    display: flex;
+    align-items:center;
+    justify-content:center;
+    text-align: center;
+    margin-bottom: 40px;
+}
+.mbox img{
+    width: 300px;
+}
+.mbox h3{
+    font-family: 'Nunito Sans', sans-serif;
+}
+
+/* gallerySection */
+
+.gheading-Image img{
+    width: 200px;
+    margin-top: 10px;
+}
+.gheading-Image{
     text-align: center;
 }
-.curriculum-Section h1{
-    font-size: 35px;
-    font-weight: 400;
-    color: rgb(68, 64, 64);
-    margin-bottom:20px ;
+.gheading-Image h3{
+    font-size: 40px;
+    font-family: 'Merienda', cursive;
+    margin-bottom: 10px;
 }
-.curriculum-Section p{
-    width: 45%;
-    font-size: 18px;
-    font-weight: 200;
-    color: rgb(68, 64, 64);
-    margin-left: 28%;
-    margin-bottom: 20px;
+.gbox{
+    width:335px;
 }
-.curriculum-Section img{
-    width: 500px;
+.gbox img{
+    width: 320px;
+    aspect-ratio: 4/3;
 }
-/* .curriculum-Container end  */
+.gbox-Container1{
+    display: flex;
+    align-items: center;
+    justify-content:center;
+    margin-bottom: 10px;
+}
+.gbox-Container2{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+/* teamsection */
+
+.theading-Image{
+    text-align: center;
+}
+.theading-Image img{
+    width: 200px;
+    margin-top: 20px;
+}
+.theading-Image h3{
+    font-size: 40px;
+    font-family: 'Merienda', cursive;
+    padding: 5px;
+}
+.tbox{
+    width:335px;
+}
+.tbox img{
+    width: 320px;
+    aspect-ratio: 4/4;
+}
+.tbox-Container1{
+    display: flex;
+    align-items: center;
+    justify-content:center;
+    margin-bottom: 10px;
+    text-align: center;
+    font-family: 'Nunito Sans', sans-serif;
+
+}
+.tbox-Container2{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    margin-bottom: 10px;
+    font-family: 'Nunito Sans', sans-serif;
+
+}
 
 
-/* pedagogy container start  */
+/* ContactSection */
 
-.pedagogy-Container{
-    height: 100%;
+.cheading-Image{
+    text-align: center;
+}
+.cheading-Image img{
+    width: 200px;
+    margin-top: 20px;
+}
+.cheading-Image h3{
+    font-size: 40px;
+    font-family: 'Merienda', cursive;
+    padding: 5px;
+}
+.cbox-Image img{
+    width: 670px;
+}
+.cbox-Container{
     width: 100%;
-    margin-bottom: 30px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
 }
-.pedagogy-Section{
-    text-align: center;
-    font-family: 'Assistant', sans-serif;
-}
-.pedagogy-Section h1{
-    font-weight: 400;
-}
-.pedagogy-Section p{
-    width: 40%;
-    font-size: 18px;
-    font-weight: 200;
-    margin-left: 30%;
-    padding: 30px;
-}
-.pedagogy-Section img{
+.table form{
     width: 500px;
-    margin-bottom: 60px;
-}
-.pedagogy-Section button{
-    width: 43%; 
-    margin-bottom: 20px;
-    padding: 18px;
-    font-size: 14px;
-    border-radius: 5px;
-}
-.p-btn1 button{
     border: 1px solid black;
+    margin-bottom: 8px;
 }
-.p-btn1 button:hover{
-    background-color:rgb(31, 31, 79);
+.table h3{
+    font-size: 25px;
+    font-family: 'Nunito Sans', sans-serif;
+    color: rgb(22, 20, 20);
+    text-align: center;
+    padding: 20px 20px 10px;
+}
+.tfbox{
+    font-size: 17.5px;
+    font-family: 'Nunito', sans-serif;
+    width: 90%;
+    padding: 15px;
+    margin:  10px;
+    margin-left: 25px;
+    color: rgb(62, 56, 56);
+}
+.btn{
+    font-size: 18px;
+    padding: 10px 20px;
+    background-color: rgb(195, 157, 118);
+    border: none;
     color: white;
+    cursor: pointer;
+    margin-left: 32.5%;
+    margin-bottom: 28px;
+    margin-top: 18px;
 }
-.p-btn2 button{
-    border: 1px solid rgb(9, 138, 189);
-    color: rgb(6, 138, 190) ;
+.btn:hover{
+    background-color: black;
 }
-.p-btn2 button:hover{
-    background-color: rgb(31, 143, 188) ;
-    color: white;
-}
-/* pedagogy container end */
 
-/* footer section start */
-.footer-Container{
-    background-color: rgb(35, 34, 34);
-    font-family: 'Assistant', sans-serif;
+/* footersection */
+
+.footerContainer{
+    height: 100%;
+    width: 90%;
 }
-.footer-Section{
-    width: 100%;
+.ftboxContainer{
     display: flex;
     align-items: center;
     justify-content:space-evenly;
-    color: white;
-    padding: 40px 100px 60px 50px;
+    border-bottom: 1px solid black;
+    margin-left: 60px;
+    text-align: center;
 }
-.copyWrites{
-    width: 73%;
-    display: flex;
-    align-items: center;
-    justify-content: space-between;
-    color: white;
-    margin-left: 12%;
+.ftbox i{
+   font-size: 25px;
+   background-color: rgb(195, 157, 118);
+   border-radius: 50%;
+   color: white;
+   text-align: center;
+   padding: 20px;
+   margin-bottom: 10px;
 }
-.company-logo{
-    margin-bottom: 40px;
+.ftbox h3{
+    font-size: 20px;
+    font-family: 'Nunito Sans', sans-serif;
+    color:black;
+    margin-bottom: 20px;
 }
-.addressContent h3 , .fp3{
-    color:rgb(143, 121, 163);
-    margin-bottom: 15px;
+.ftbox p{
+    font-size: 16px;
+    /* font-family: 'Nunito Sans', sans-serif; */
+    font-family: 'Roboto', sans-serif;
+    color: rgb(199, 152, 105); 
+    margin-bottom: 20px;
+    line-height: 10px;
 }
-.fp3{
-    font-size: 18px;
-}
-.fp1 , .fp2{
-    color: rgb(6, 138, 190) ;
-    margin-bottom: 15px;
-}
-.addressContent h3{
-    font-weight: 400;
-}
-.addressContent i{
-    color:rgb(173, 170, 170);
-    margin-right: 15px;
-}
-.Quick-Links h2{
-    font-size: 25px;
-    font-weight: 400;
-    color:rgb(143, 121, 163);
-    margin-bottom: 15px;
-}
-.Quick-Links h4{
-    color: rgb(6, 138, 190) ;
-    font-weight: 400;
-    font-size: 18px;
-}
-.company-logo img{
-    width: 190px;
-}
-.contactDetails h2{
-    font-weight: 400;
-    font-size: 28px;
-    color:rgb(143, 121, 163);
-    margin-bottom: 10px;
-}
-.contactDetails i{
-    font-size: 25px;
-    border-radius: 50%;
+.credit{
+    font-size: 20px;
+    font-family: 'Nunito', sans-serif;
+    text-align: center;
     padding: 20px;
+    margin-left: 60px;
 }
-.sm-Icon{
-    display: flex;
-    gap: 0.3rem;
-    margin-bottom: 50px;
+.credit span{
+    color:  rgb(202, 167, 131);
 }
-.contact-Icons{
-    width: 100%;
+#ftbox1,#ftbox4{
+    margin-top: 26px;
 }
-.contact-Menu{
-    display: flex;
-}
-.sm1 i{
- background-color:rgb(60, 89, 143)
-}
-.sm2 i{
-    background-color: rgb(202, 44, 44);
-}
-.contact-Icons i{
-    background-color: rgb(66, 109, 66);
-    margin-right: 20px;
-}
-.contact-Menu button{
-    padding: 5px 10px ; 
-    font-size: 15px; 
-    border-radius: 5px; 
-    border: 2px solid  rgb(99, 166, 99);
-    background-color: rgb(37, 33, 33);
-    color: rgb(16, 145, 16);
-    font-weight: 400px; 
-    margin-top: 20px;
-}
-.copyWrites i{
-     color:rgb(143, 121, 163);
-     margin-right:5px;
-}
-.copyWrites{
-    padding-bottom: 40px;
-}
-.cp1{
-    color: rgb(6, 138, 190) ;
-}
-.cp2{
-    color:rgb(143, 121, 163);
-}
-.contact-Menu button:hover{
-    background-color: rgb(112, 181, 112);
-    color: white;
-}
-
-/* footer-Section end */
-
